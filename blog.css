@@ -1,0 +1,397 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+header{
+   position: sticky;
+    top: 0;
+     z-index: 1;
+}
+.header{
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: white;
+    
+}
+header ul {
+    display: flex;
+    gap: 20px;
+    
+}
+header ul li{
+    list-style-type: none;
+   
+}
+header ul li a{
+    text-decoration: none;
+   
+}
+.btn button{
+    border-radius: 3px;
+    padding: 1vw;
+    border: none;
+    background-color: green;
+    color: white;
+    white-space: nowrap;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+   
+}
+.womensec, .kidssec, .mensec,.unisxx{
+    display: flex;
+    gap:5rem;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+}
+.womensec figure{
+    width: 100%;
+  max-width: 15vw;
+}
+.womensec figure figcaption{
+    font-size:clamp(1rem, 1vw, 3rem);
+    font-weight: bolder;
+    white-space: nowrap;
+    line-height: 2;
+    text-align: center;
+}
+.womensec figure p{
+    font-size:clamp(0.7rem, 1vw, 1rem);
+   
+}
+.kidssec figure{
+    width: 100%;
+    max-width: 15vw;
+}
+.mensec figure{
+    width: 100%;
+    max-width: 15vw;
+}
+.unisxx figure{
+    width: 100%;
+    max-width: 15vw;
+}
+.kidssec figure figcaption{
+    font-size:clamp(1rem, 1vw, 3rem);
+    font-weight: bolder;
+    white-space: nowrap;
+    line-height: 2;
+     text-align: center;
+
+}
+.mensec figure figcaption{
+   font-size:clamp(1rem, 1vw, 3rem);
+    font-weight: bolder;
+    white-space: nowrap;
+    line-height: 2;
+    text-align: center;
+}
+.unisxx figure figcaption{
+   font-size:clamp(1rem, 1vw, 3rem);
+    font-weight: bolder;
+    white-space: nowrap;
+    line-height: 2;
+    text-align: center;
+}
+.green{
+    white-space: nowrap;
+    margin-top: 10px;
+    font-size: 0.5rem;
+    color: green;
+
+}
+.number{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+   
+}
+.coconut{
+    background-color: rgb(201, 199, 199);
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.number p{
+    background-color: white;
+    border: 2px solid white;
+    padding: 5px;
+    width: 25px;
+    height: 25px;
+    box-shadow: 0 8px 10px -2px;
+    text-align: center;
+}
+#diff{
+    background-color: green;
+    border: none;
+}
+.black{
+    
+    background-color: black;
+    color: white;
+}
+.black1{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin-top: 90px;
+}
+.coco{
+    display: flex;
+    gap: 40px;
+}
+.line{
+    border-bottom:2px solid rgb(79, 175, 79);
+    width: 3rem;
+}
+.line1{
+    margin-bottom: 25px;
+}
+.line1 h2{
+    margin-bottom: 5px;
+}
+.line2{
+      margin-top: 25px;
+}
+.envelop{
+    display: flex;
+   justify-content: space-between;
+    background-color: rgb(34, 33, 33);
+     padding: 4px;
+     margin-top: 15px;
+     width:195px;
+     border-radius: 2px;
+}
+.envelop p{
+    font-size: 1.3rem;
+
+}
+.change{
+    margin-top: 5px;
+}
+.bottom{
+    background-color: rgb(30, 29, 29);
+    padding: 10px;
+   
+   
+
+}
+
+.bottom p{
+    border: 2px solid hsl(0, 0%, 63%)  ;
+    width:300px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    padding: 10px;
+   
+}
+.bottom :nth-child(6){
+    padding: 40px;
+}
+#diff{
+    text-align: center;
+    background-color: rgb(79, 175, 79);
+    border: none;
+    border-radius: 5px;
+    opacity: 1;
+}
+.no1{
+    margin-bottom: 15px;
+}
+.emoji{
+    margin-bottom: 15px;
+    display: flex;
+    gap: 10px;
+}
+.last{
+    background-color:rgb(79, 175, 79) ;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    border-radius: 5px;
+}
+.footer p{
+   border-bottom: 1px solid white;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.socials{
+    display: flex;
+    gap: 20px;
+}
+@media (max-width:526px){
+    
+.womensec figure{
+    width: 100%;
+  max-width: 20vw;
+}
+.kidssec figure{
+    width: 100%;
+    max-width: 20vw;
+}
+.mensec figure{
+    width: 100%;
+    max-width: 20vw;
+}
+.unisxx figure{
+    width: 100%;
+    max-width: 20vw;
+}
+.womensec figure figcaption{
+     font-size:clamp(0.8rem, 1vw, 3rem);
+    white-space: nowrap;
+    line-height: 2;
+}
+.kidssec figure figcaption{
+    font-size:clamp(0.8rem, 1vw, 3rem);
+    font-weight: bolder;
+    white-space: nowrap;
+    line-height: 2;
+
+}
+.mensec figure figcaption{
+   font-size:clamp(0.8rem, 1vw, 3rem);
+    font-weight: bolder;
+    white-space: nowrap;
+    line-height: 2;
+
+}
+.unisxx figure figcaption{
+   font-size:clamp(0.8rem, 1vw, 3rem);
+    font-weight: bolder;
+    white-space: nowrap;
+    line-height: 2;
+
+}
+.womensec figure p{
+    display: none;
+   
+}
+.kidssec figure p{
+    display: none;
+}
+.mensec figure p{
+    display: none;
+}
+.unisxx figure p{
+    display: none;
+}
+    
+}
+@media (max-width:1012px){
+    .black{
+    background-color: black;
+    color: white;
+    white-space: nowrap;
+}
+    .black1{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+   align-items: center;  
+}
+.coco{
+    display: flex;
+    gap: 40px;
+}
+.line{
+    border-bottom:2px solid rgb(79, 175, 79);
+    width: 3rem;
+}
+.line1{
+    margin-bottom: 25px;
+}
+.line1 h2{
+    margin-bottom: 5px;
+}
+.line2{
+      margin-top: 25px;
+}
+.envelop{
+    display: flex;
+   justify-content: space-between;
+    background-color: rgb(34, 33, 33);
+     padding: 4px;
+     margin-top: 15px;
+     width:195px;
+     border-radius: 2px;
+}
+.envelop p{
+    font-size: 1.3rem;
+
+}
+.change{
+    margin-top: 5px;
+}
+.bottom{
+    background-color: black;
+   
+   
+
+}
+
+.bottom p{
+    border: 2px solid hsl(0, 0%, 63%)  ;
+    width:300px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    padding: 1vw;
+   
+}
+.bottom :nth-child(6){
+    padding: 40px;
+}
+#diff{
+    text-align: center;
+    background-color: rgb(79, 175, 79);
+    border: none;
+    border-radius: 5px;
+    opacity: 1;
+}
+.no1{
+    margin-bottom: 15px;
+}
+.emoji{
+    margin-bottom: 15px;
+    display: flex;
+    gap: 10px;
+}
+.last{
+    background-color:rgb(79, 175, 79) ;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    border-radius: 5px;
+}
+.footer p{
+   border-bottom: 1px solid white;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+.socials{
+    display: flex;
+    gap: 20px;
+}
+
+}

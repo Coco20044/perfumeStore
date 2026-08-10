@@ -1,0 +1,468 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+header{
+   position: sticky;
+    top: 0;
+      z-index: 1;
+}
+.header{
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: white;
+   
+    
+}
+header ul {
+    display: flex;
+    gap: 20px;
+    
+}
+header ul li{
+    list-style-type: none;
+   
+}
+header ul li a{
+    text-decoration: none;
+   
+}
+
+.btn button{
+    white-space: nowrap;
+    border-radius: 3px;
+    padding: 1vw;
+    border: none;
+    background-color: green;
+    color: white;
+}
+.hero{
+    
+    line-height: 1.5;
+    height: 90vh;
+    padding: 200px;
+    text-align: center;
+    background-color: black;
+    background-image:url(img/download.jfif);
+    background-size:contain ;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+  
+}
+.hero h2{
+    font-style: italic;
+    white-space: nowrap;
+    font-size:clamp(1.1rem,1vw,3rem);
+    color: white;
+    margin-bottom: 40px;
+    font-weight: bolder;
+}
+.green{
+    margin-bottom: 8px;
+    background-color: green;
+   padding: 9px;
+   display: inline-block;
+     width: 150px;
+}
+.white{
+    background-color: white;
+     padding: 9px;
+     display: inline-block;
+     width: 150px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.info{
+    display: flex;
+    margin: auto;
+   width: 90%;
+    margin-top: 1rem;
+    line-height: 2;
+   
+    
+}
+.coco{
+    display: flex;
+    justify-content:space-around ;
+    background-color: rgb(96, 117, 96);
+    color: white;
+    padding: 15px;
+}
+.images{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left:30rem;
+}
+.images figure{
+    width: 100%;
+    max-width: 15rem;
+    text-align: center;
+    
+    
+}
+.images2{
+    display: flex;
+    gap: 10px;
+}
+.center button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 3vw;
+    border: none;
+    background-color: green;
+    color: white;
+}
+.center p{
+    font-style: italic;
+}
+
+.women{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.heading{
+   line-height: 2;   
+   white-space: nowrap;
+   font-size:clamp(0.8rem,1vw,1rem);
+}
+.spicy{
+    display: flex;
+    gap: 10rem;
+}
+.spicy figure{
+    width: 100%;
+    max-width: 20rem;
+    text-align: center;
+}
+.spicy figure figcaption{
+   font-size:1.4rem;
+   font-weight: bolder;
+}
+.see{
+    margin-top: 5px;
+    font-size: 0.8rem;
+}
+.men{
+    background-color:black;
+    background-image: url(img/men.jfif);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+   padding: 20px;
+    background-position:center;
+  margin-top: 40px;
+   height: 90vh;
+}
+.men div{
+    margin-top: 50px;
+    width: 30%;
+    text-align: left;
+    color:black;
+    background-color: white;
+    padding: 8px;
+}
+.men div h2{
+    margin-bottom: 5px;
+}
+.men div button{
+    border-radius: 3px;
+    margin-top: 8px;
+    padding: 2vw;
+    background-color: green;
+    color: white;
+    border: none;
+}
+.mcollection{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menwrite{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1.5rem;
+}
+.menimg{
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    margin-top: 30px;
+}
+.ind{
+   display: flex;
+   gap: 10rem;
+}
+.ind figure{
+    width: 100%;
+    max-width: 10rem;
+    text-align: center;
+}
+.menbtn{
+    margin-top: 15px;
+    
+}
+.menbtn button{
+    border-radius: 3px;
+   padding: 3vw;
+   background-color: green;
+   border: none;
+   color: white;
+   text-align: center;
+  
+}
+.uni{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(192, 184, 184);
+    margin-top: 5rem;
+    padding:50px;
+}
+
+.uniwrite{
+    display: flex;
+    gap: 35rem;
+}
+.run button{
+    padding: 0.5vw;
+    width: 5rem;
+    background-color: green;
+    border: none;
+    color: white;
+}
+  .h4{
+    font-size: 1.4rem;
+    font-weight: bolder;
+  }  
+
+.uniimg{
+    display: flex;
+    gap: 10rem;
+    margin-top:9px;
+
+}
+.uniimg figure{
+    width: 100%;
+    max-width: 10rem;
+
+}
+.uniimg figure figcaption{
+    text-align: center;
+
+}
+.contact{
+    background-color: rgb(90, 89, 89);
+    display: flex;
+    gap: 4rem;
+    color: white;
+    padding: 20px;
+   
+
+}
+.seperate{
+    margin-bottom: 15px;
+}
+.join{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.test,.test1,.test2,.test3{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+.test::before{
+    content:'📍' ;
+    display: block;
+    background-color: rgb(95, 163, 95);
+    padding: 0.5vw;
+    width:1.5rem;
+    
+   
+}
+.test1::before{
+     content:'📞' ;
+    display: block;
+    background-color: rgb(95, 163, 95);
+    padding: 0.5vw;
+    width:1.5rem;
+     
+}
+.test2::before{
+    content:'📧' ;
+    display: block;
+    background-color: rgb(95, 163, 95);
+    padding: 0.5vw;
+    width:1.5rem;
+}
+.test3::before{
+    content:'⏱️' ;
+    display: block;
+    background-color: rgb(95, 163, 95);
+    padding: 0.5vw;
+    width:1.5rem;
+    
+}
+
+.spread{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.child{
+    background-color: white;
+    color:black;
+    width: 70%;
+    padding:0.5vw;
+}
+.child1{
+    margin-left:1rem;
+    background-color: white;
+    color:black;
+    width: 70%;
+    padding:0.5vw;
+}
+.child2{
+    background-color: white;
+    color:black;
+    width: 100%;
+    padding:3vw;
+    margin-top: 10px;
+    text-align: start;
+}
+.child3{
+    
+    background-color: white;
+    color:black;
+    width: 100%;
+    padding:0.5vw;
+    margin-top: 10px;
+    background-color: rgb(95, 163, 95) ;
+    text-align: center;
+    color: white;
+}
+@media (max-width:1070px) {
+    .about{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.center{
+    margin: auto;
+}
+.images figure{
+    width: 100%;
+    max-width: 50rem;
+    text-align: center;
+    
+    
+}
+ .images{
+    display: flex;
+    flex-direction: column;
+   margin: auto;
+   padding: 1rem;
+   
+}   
+}
+@media (max-width:569px){
+    .spicy{   
+    display: flex;
+    gap: 3rem;
+
+    }
+    .center button{
+       margin-left: 100px;
+       
+    }
+    .ind{
+   display: flex;
+   gap: 2rem;
+}
+.run{
+    display: none;
+}
+.uniimg{
+    display: flex;
+    gap: 3rem;
+    margin-top:9px;
+
+}
+.uniimg figure{
+    width: 100%;
+    max-width: 15rem;
+
+}
+
+
+
+}
+@media (max-width:612px){
+    .test::before{
+    content:'📍' ;
+    display: block;
+    background-color: rgb(95, 163, 95);
+    padding: 0.5vw;
+    width:2rem;
+    height: 30px;
+    text-align: center;
+    
+   
+}
+.test1::before{
+     content:'📞' ;
+    display: block;
+    background-color: rgb(95, 163, 95);
+    padding: 0.5vw;
+   width:2rem;
+    height: 30px;
+    text-align: center;
+     
+}
+.test2::before{
+    content:'📧' ;
+    display: block;
+    background-color: rgb(95, 163, 95);
+    padding: 0.5vw;
+    width:1.5rem;
+}
+.test3::before{
+    content:'⏱️' ;
+    display: block;
+    background-color: rgb(95, 163, 95);
+    padding: 0.5vw;
+    width:2rem;
+    height: 30px;
+    text-align: center;
+    
+
+}
+
+
+}

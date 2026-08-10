@@ -1,0 +1,365 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+header{
+   position: sticky;
+    top: 0;
+     z-index: 1;
+}
+.header{
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: white;
+    
+}
+header ul {
+    display: flex;
+    gap: 20px;
+    
+}
+header ul li{
+    list-style-type: none;
+   
+}
+header ul li a{
+    text-decoration: none;
+   
+}
+
+.btn button{
+    border-radius: 3px;
+    padding: 1vw;
+    border: none;
+    background-color: green;
+    color: white;
+    white-space: nowrap;
+}
+
+.one{
+    background-color: gray;
+    padding: 30px;
+    text-align: center;
+    white-space: nowrap;
+    
+}
+.two{
+    display: flex;
+   justify-content: center;
+   gap: 3rem;
+   margin-top: 20px;
+}
+.three{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(229, 229, 229);
+    padding: 2rem;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+}
+.three ul li{
+    list-style-type:none;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 200px;
+    padding: 5px;
+
+}
+.three ul li:last-child{
+    padding:2rem;
+}
+.greenn{
+    background-color: green;
+    width: 30%;
+    color: white;
+    text-align: center;
+    padding: 0.5vw;
+}
+.four{
+     display: flex;
+    flex-direction: column;
+    gap: 10px;
+     padding: 2rem;
+     white-space: nowrap;
+}
+.five{
+    display: flex;
+}
+.empty{
+    border-radius: 50%;
+    padding: 10px;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(198, 195, 195);
+    margin-top: 12px;
+    margin-right:12px ;
+}
+.seven h3{
+    color: green;
+    font-size: 0.8rem;
+}
+.seven p{
+    font-size: 0.9rem;
+}
+.gray{
+    background-color: rgb(211, 209, 209);
+    padding: 20px;
+    height: 150px;
+}
+.black{
+    
+    background-color: black;
+    color: white;
+    position: relative;
+   
+}
+.black1{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+   
+}
+.coco{
+    display: flex;
+    gap: 40px;
+}
+.line{
+    border-bottom:2px solid rgb(79, 175, 79);
+    width: 3rem;
+}
+.line1{
+    margin-bottom: 25px;
+}
+.line1 h2{
+    margin-bottom: 5px;
+}
+.line2{
+      margin-top: 25px;
+}
+.envelop{
+    display: flex;
+   justify-content: space-between;
+    background-color: rgb(34, 33, 33);
+     padding: 4px;
+     margin-top: 15px;
+     width:195px;
+     border-radius: 2px;
+}
+.envelop p{
+    font-size: 1.3rem;
+
+}
+.change{
+    margin-top: 5px;
+}
+.bottom{
+    background-color: rgb(30, 29, 29);
+    padding: 10px;
+   
+   
+
+}
+
+.bottom p{
+    border: 2px solid hsl(0, 0%, 63%)  ;
+    width:300px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    padding: 10px;
+   
+}
+.bottom :nth-child(6){
+    padding: 40px;
+}
+#diff{
+    text-align: center;
+    background-color: rgb(79, 175, 79);
+    border: none;
+    border-radius: 5px;
+    opacity: 1;
+}
+.no1{
+    margin-bottom: 15px;
+}
+.emoji{
+    margin-bottom: 15px;
+    display: flex;
+    gap: 10px;
+}
+.last{
+    background-color:rgb(79, 175, 79) ;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    border-radius: 5px;
+}
+.footer p{
+   border-bottom: 1px solid white;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.socials{
+    display: flex;
+    gap: 20px;
+}
+.green{
+    background-color: green;
+    padding: 30px;
+   position: absolute;
+   top: -20px;
+   left: 50%;
+   transform: translateX(-50%);
+   border-radius: 5px;
+}
+@media (max-width:665px){
+    .two{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   gap: 3rem;
+   margin-top: 20px;
+}
+.one{
+    margin: auto;
+    background-color: gray;
+    padding: 30px;
+    text-align: center;
+    white-space: nowrap;
+    
+}
+.three{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(229, 229, 229);
+    padding: 10vw;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+}
+.four{
+    margin: auto;
+     display: flex;
+    flex-direction: column;
+    gap: 10px;
+     padding: 2rem;
+     white-space: nowrap;
+}
+.green{
+    
+    
+display: none;
+}
+
+       
+}
+@media (max-width:1012px){
+    .black{
+    background-color: black;
+    color: white;
+    white-space: nowrap;
+}
+    .black1{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+   align-items: center;  
+}
+.coco{
+    display: flex;
+    gap: 40px;
+}
+.line{
+    border-bottom:2px solid rgb(79, 175, 79);
+    width: 3rem;
+}
+.line1{
+    margin-bottom: 25px;
+}
+.line1 h2{
+    margin-bottom: 5px;
+}
+.line2{
+      margin-top: 25px;
+}
+.envelop{
+    display: flex;
+   justify-content: space-between;
+    background-color: rgb(34, 33, 33);
+     padding: 4px;
+     margin-top: 15px;
+     width:195px;
+     border-radius: 2px;
+}
+.envelop p{
+    font-size: 1.3rem;
+
+}
+.change{
+    margin-top: 5px;
+}
+.bottom{
+    background-color: black;
+   
+   
+
+}
+
+.bottom p{
+    border: 2px solid hsl(0, 0%, 63%)  ;
+    width:300px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    padding: 1vw;
+   
+}
+.bottom :nth-child(6){
+    padding: 40px;
+}
+#diff{
+    text-align: center;
+    background-color: rgb(79, 175, 79);
+    border: none;
+    border-radius: 5px;
+    opacity: 1;
+}
+.no1{
+    margin-bottom: 15px;
+}
+.emoji{
+    margin-bottom: 15px;
+    display: flex;
+    gap: 10px;
+}
+.last{
+    background-color:rgb(79, 175, 79) ;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    border-radius: 5px;
+}
+.footer p{
+   border-bottom: 1px solid white;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+.socials{
+    display: flex;
+    gap: 20px;
+}
+
+}
