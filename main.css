@@ -16,7 +16,7 @@ header{
 .header{
     padding: 20px;
     display: flex;
-    gap: 10px;
+   justify-content: space-between;
     align-items: center;
     background-color: white;
    
@@ -24,13 +24,18 @@ header{
 }
 header ul {
     display: flex;
-    gap: 20px;
+    gap: 10px;
     
 }
 header ul li{
     list-style-type: none;
+
    
 }
+header ul li :nth-child(1){
+    margin-left: 8px;
+}
+
 header ul li a{
     text-decoration: none;
    
@@ -39,10 +44,11 @@ header ul li a{
 .btn button{
     white-space: nowrap;
     border-radius: 3px;
-    padding: 1vw;
+    padding: 0.5vw;
     border: none;
     background-color: green;
     color: white;
+    margin-left: 8px;
 }
 .hero{
     
@@ -122,7 +128,7 @@ header ul li a{
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
-    padding: 3vw;
+    padding: 0.5vw;
     border: none;
     background-color: green;
     color: white;
@@ -184,7 +190,7 @@ header ul li a{
 .men div button{
     border-radius: 3px;
     margin-top: 8px;
-    padding: 2vw;
+    padding: 0.5vw;
     background-color: green;
     color: white;
     border: none;
@@ -221,7 +227,7 @@ header ul li a{
 }
 .menbtn button{
     border-radius: 3px;
-   padding: 3vw;
+   padding: 0.5vw;
    background-color: green;
    border: none;
    color: white;
